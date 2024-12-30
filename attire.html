@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
+    <!-- <script src="./js/bootstrap.min.j  s"></script> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+PhagsPa&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="attire.css">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+        <a href="" class="navbar-brand">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="navbrand-name">attire</span>
+        </a>
+
+        <button class="navbar-toggler" data-bs-target="#navbarcontent" data-bs-toggle="collapse">
+            <i class="fa-solid- fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarcontent">
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#new-collection">collections</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#special-collection">specials</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#offers">offers</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+    <div class="carousel slide" id="carousel-bg-image" data-bs-ride="carousel">
+        <div class="container h-100 d-flex align-items-center carousel-inner">
+            <div class="text-center carousel-item active">
+                <h2 class="text-light">best collection</h2>
+                <h1 class="text-light">new collection</h1>
+                <button class="btn shopping-buttons">buy now</button>
+            </div>
+            <div class="carousel-item">
+                <div class="text-center carousel-item active">
+                    <h2 class="text-light">best prices & offer</h2>
+                    <h2 class="text-light">new season</h2>
+                    <button class="btn shopping-buttons">show now</button>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" data-bs-target="#carousel-bg-image" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#carousel-bg-image" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <div class="py-5 " id="new-collection">
+        <div class="container">
+            <h2 class="text-center title">New collection</h2>
+
+            <div class="text-center">
+                <button class="btn shopping-buttons m-2 active-button">ALL</button>
+                <button class="btn shopping-buttons m-2">Best seller</button>
+                <button class="btn shopping-buttons m-2">featured</button>
+                <button class="btn shopping-buttons m-2">new arrivals</button>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <img src="./images/c_formal_gray_shirt.png" alt="" class="card-image-top">
+                        <div class="card-body">
+                            <p class="card-text text-center">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </p>
+                            <div class="card-text text-center">Gray shirt</div>
+                            <div class="card-text text-center">&#8377; 150</div>
+                            <div class="text-center">
+                                <button class="shopping-buttons mt-2">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    add to cart
+                                </button>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <img src="./images/c_western-shirt.png" alt="" class="card-image-top">
+                        <div class="card-body">
+                            <p class="card-text text-center">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </p>
+                            <div class="card-text text-center">Gray shirt</div>
+                            <div class="card-text text-center">&#8377; 150</div>
+                            <div class="text-center">
+                                <button class="shopping-buttons mt-2">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    add to cart
+                                </button>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <img src="./images/c_undershirt.png" alt="" class="card-image-top">
+                        <div class="card-body">
+                            <p class="card-text text-center">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </p>
+                            <div class="card-text text-center">Gray shirt</div>
+                            <div class="card-text text-center">&#8377; 150</div>
+                            <div class="text-center">
+                                <button class="shopping-buttons mt-2">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    add to cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="py-5" id="special-collection">
+                <div class="container">
+
+
+                    <h2 class="text-center title">Special collection</h2>
+
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card">
+                                <img src="./images/c_tunic-shirt_girl.png" alt="" class="card-image-top">
+                                <div class="card-body">
+                                    <p class="card-text text-center">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </p>
+                                    <div class="card-text text-center">girls were</div>
+                                    <div class="card-text text-center">&#8377; 150</div>
+                                    <div class="text-center">
+                                        <button class="shopping-buttons mt-2">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            add to cart
+                                        </button>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card">
+                                <img src="./images/c_shirt-girl.png" alt="" class="card-image-top">
+                                <div class="card-body">
+                                    <p class="card-text text-center">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </p>
+                                    <div class="card-text text-center">Gray shirt</div>
+                                    <div class="card-text text-center">&#8377; 150</div>
+                                    <div class="text-center">
+                                        <button class="shopping-buttons mt-2">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            add to cart
+                                        </button>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card">
+                                <img src="./images/c_pant_girl.png" alt="" class="card-image-top">
+                                <div class="card-body">
+                                    <p class="card-text text-center">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </p>
+                                    <div class="card-text text-center">Blue Pant</div>
+                                    <div class="card-text text-center">&#8377; 150</div>
+                                    <div class="text-center">
+                                        <button class="shopping-buttons mt-2">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            add to cart
+                                        </button>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+        <div class="py-5" id="offers">
+            <div class="container h-100 d-flex  justify-content-center">
+                <div>
+
+                    <h5 class="text-light">discount upto 40%</h5>
+                    <h2 class="text-light">grand sale offer!</h2>
+                    <button class="btn shopping-buttons" data-bs-
+                    target="#thankyoumodal" data-bs-toggle="modal">buy now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="thankyoumodal">
+            <div class="modal-dailog">
+                <div class="modal-content">
+                    <div class="header text-end p-1">
+                        <button class="btn-close" data-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="text-center success">
+                            <i class="fa-solid fa-circel-check"></i>
+                        </div>
+                        <p class="text-center">item added to cart</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
